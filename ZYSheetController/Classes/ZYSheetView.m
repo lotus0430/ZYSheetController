@@ -7,7 +7,7 @@
 //
 
 #import "ZYSheetView.h"
-//#import <Masonry.h>
+#import <Masonry/Masonry.h>
 @interface ZYSheetView ()
 
 @property (nonatomic, strong) UIControl *backView;
@@ -22,7 +22,15 @@
 
 static CGFloat const cellHeight = 44.0;
 static CGFloat const lineSpacing = 10.0;
-#define SepHeight 1.0;
+#define SepHeight 1.0
+// 主要是用于区分是否是 刘海屏
+#define LiuHaiPhone \
+({BOOL isLiuHaiPhone = NO;\
+if (@available(iOS 11.0, *)) {\
+isLiuHaiPhone = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isLiuHaiPhone);})
+
 @implementation ZYSheetView
 {
     CGFloat _contentHeight;
@@ -139,7 +147,7 @@ static CGFloat const lineSpacing = 10.0;
         }];
         contentHeight += cellHeight;
         UIView *sepView = [UIView new];
-        sepView.backgroundColor = sepColor_gray;
+        sepView.backgroundColor = [UIColor colorWithRed: (249 / 255.0) green: (249 / 255.0) blue: (249 / 255.0) alpha: 1.0];
         [self.contentView addSubview: sepView];
         [sepView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.bottom.mas_equalTo(action.mas_top);
@@ -164,8 +172,8 @@ static CGFloat const lineSpacing = 10.0;
     
     if (self.title.length > 0) {
         UILabel *label = [UILabel new];
-        label.font = PFSC_Regular(13);
-        label.textColor = textColor_mediumGray;
+        label.font = [UIFont systemFontOfSize: 13];
+        label.textColor = [UIColor systemGrayColor];
         label.textAlignment = NSTextAlignmentCenter;
         label.text = self.title;
         [self.contentView addSubview: label];
@@ -190,14 +198,14 @@ static CGFloat const lineSpacing = 10.0;
 
 -(void)show
 {
-    UIWindow *window = [[UIWindow alloc] initWithFrame: ScreenBouds];
+    UIWindow *window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
     window.windowLevel = UIWindowLevelAlert;
     UIViewController *vc = [[UIViewController alloc] init];
     vc.view.backgroundColor = [UIColor clearColor];
     [vc.view addSubview: self];
     [self mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.right.equalTo(vc.view);
-        make.bottom.equalTo(vc.view).offset(IPHONE_X ? -34 : 0);
+        make.bottom.equalTo(vc.view).offset(LiuHaiPhone ? -34 : 0);
     }];
     window.rootViewController = vc;
     [window makeKeyAndVisible];

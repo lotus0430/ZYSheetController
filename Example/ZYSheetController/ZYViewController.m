@@ -26,4 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    ZYSheetView *sheetView = [ZYSheetView sheetWithTitle: @"测试"];
+    [sheetView addAction: [ZYSheetAction actionWithTitle: @"打印" actionStyle: ZYSheetActionStyleDefault completionHandler:^{
+        NSLog(@"打印些什么");
+    }]];
+    [sheetView addAction: [ZYSheetAction actionWithTitle: @"取消" actionStyle: ZYSheetActionStyleCancel completionHandler: nil]];
+    [sheetView show];
+}
+
 @end

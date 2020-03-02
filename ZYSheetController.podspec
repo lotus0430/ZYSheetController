@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYSheetController'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '扁平化的弹出框sheet'
 
 # This description is used to generate tags and improve search results.

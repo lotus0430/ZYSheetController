@@ -7,48 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A2270E134DF93C70E77509BB7A12D5 /* ZYSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04C4B88F83B0B900F301C0C1487B24B /* ZYSheetView.m */; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		1E9C8267A3B66499F55962D1A09CBFF3 /* ZYSheetController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9354676075C66CBC800E621FC63078 /* ZYSheetController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41F918A37B4F8F2802C42E3A3FAC30BA /* ZYSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38223AEBAF07C0D1B0EFB226D444C7AF /* ZYSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5603BD92B73D94E68BEFDB30EEEB581D /* ZYSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C702EB1C80A37DD1EDFAD403F11E22 /* ZYSheetController-dummy.m */; };
+		65075DF27B45BD6A8F5A0DCBFCFC2562 /* ZYSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04C4B88F83B0B900F301C0C1487B24B /* ZYSheetView.m */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B22F0A142F8A090EAB158B9C414A9F2 /* ZYSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38223AEBAF07C0D1B0EFB226D444C7AF /* ZYSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F600DEFA99792EF8F9F0DCC92C5FEF6 /* Pods-ZYSheetController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF7F3E67E05658298FE23A66743CD34 /* Pods-ZYSheetController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73C69C8EAF1304E7F04CC678B903B23A /* Pods-ZYSheetController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E43493B2E9B54FAC5FB9DF58CFC2DACC /* Pods-ZYSheetController_Example-dummy.m */; };
+		759C13BC943358E26DA9E49D2E456862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
-		7D407274C9D2EA37C421A783BAF34536 /* ZYSheetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EB15E095CFDC0608B0C176E516B9F979 /* ZYSheetAction.m */; };
-		83306AAD7FC7E9FD73053CD7F8E026D1 /* ZYSheetController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9354676075C66CBC800E621FC63078 /* ZYSheetController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D879838B0C24674328914F2F1B29EC9 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		879F64E0237B419D03A8B9D68DC12353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DBF8FF5FDA8B8779AF71464B23437E2 /* Pods-ZYSheetController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B6223C523183C4C771721BEC8B6D4 /* Pods-ZYSheetController_Tests-dummy.m */; };
-		8DE7379E1B3DC5E166F8D1B47BE4A6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8DE7379E1B3DC5E166F8D1B47BE4A6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95CB631B7CF43AAA224BA575F941BF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		95CB631B7CF43AAA224BA575F941BF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		B1C91A0E52BE0E424C91179F48EAAACC /* ZYSheetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EB15E095CFDC0608B0C176E516B9F979 /* ZYSheetAction.m */; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		CBEB1712FA625870D4D496364B0148AD /* ZYSheetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 03347049DBFA29651A2123385E3DFF9A /* ZYSheetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4B0B73D334075EAFFB3BBE9A9297BDE /* ZYSheetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 03347049DBFA29651A2123385E3DFF9A /* ZYSheetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD9E5F3F22168BED9EFF2A58DF24594F /* Pods-ZYSheetController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D630AB197D551FCF0443759632D1AC /* Pods-ZYSheetController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF07A9CF21C21F1FA11015F68DDDA742 /* ZYSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C702EB1C80A37DD1EDFAD403F11E22 /* ZYSheetController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,13 @@
 			remoteGlobalIDString = 9CB8D3CD391E6EBDEF717095240D796B;
 			remoteInfo = "Pods-ZYSheetController_Example";
 		};
+		56308DEBCA00AF966607D2037DE26AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -89,8 +97,8 @@
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219BEDFC37C30ED14AFB280765A89D35 /* Pods-ZYSheetController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYSheetController_Tests.modulemap"; sourceTree = "<group>"; };
+		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3059CC35BD4232C42BF35A461B1D0C64 /* Pods-ZYSheetController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYSheetController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		31A96781A337DDC6F056E81C0F782801 /* ZYSheetController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYSheetController-Info.plist"; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		38223AEBAF07C0D1B0EFB226D444C7AF /* ZYSheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZYSheetView.h; path = ZYSheetController/Classes/ZYSheetView.h; sourceTree = "<group>"; };
@@ -98,7 +106,6 @@
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		417A6985C981CF236479D7B33A6880B8 /* Pods-ZYSheetController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYSheetController_Example.modulemap"; sourceTree = "<group>"; };
 		41810BAE6326082DE9F24117D6924913 /* Pods-ZYSheetController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYSheetController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4532E9E1B54B952D6B343BF34203B96B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		48598D8BAA504866B08366E6746914F1 /* Pods-ZYSheetController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYSheetController_Example-Info.plist"; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		6761699CCDF09003D2366B4CF71D7326 /* Pods-ZYSheetController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYSheetController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F4BCA91DC75247079128AAD6C896B6 /* Pods-ZYSheetController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYSheetController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84C4C3A6CE63DD297BABDBB2117170CF /* Pods-ZYSheetController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYSheetController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
@@ -139,6 +147,7 @@
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		EB15E095CFDC0608B0C176E516B9F979 /* ZYSheetAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZYSheetAction.m; path = ZYSheetController/Classes/ZYSheetAction.m; sourceTree = "<group>"; };
+		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		F2C702EB1C80A37DD1EDFAD403F11E22 /* ZYSheetController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYSheetController-dummy.m"; sourceTree = "<group>"; };
@@ -172,25 +181,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD50284AC3840AB7656B0EF505127765 /* Frameworks */ = {
+		DBDC02E05C778F2C087A7840E87B0491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879F64E0237B419D03A8B9D68DC12353 /* Foundation.framework in Frameworks */,
+				759C13BC943358E26DA9E49D2E456862 /* Foundation.framework in Frameworks */,
+				7D879838B0C24674328914F2F1B29EC9 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1B447B1602CDFD6780FB8629106B10E2 /* Pods-ZYSheetController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +314,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */,
+				EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		B95C93A3B3D0B315A29FC8F6E7CAA236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,20 +353,20 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				54E79097FDB2F74C7AF576DB6A43955E /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				B95C93A3B3D0B315A29FC8F6E7CAA236 /* Products */,
 				F2A9BE10806F02547948D0FD43641433 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F2A9BE10806F02547948D0FD43641433 /* Targets Support Files */ = {
@@ -375,16 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9E5F3F22168BED9EFF2A58DF24594F /* Pods-ZYSheetController_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B67CC3BB3FC4574C8FE54205D59B94F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4B0B73D334075EAFFB3BBE9A9297BDE /* ZYSheetAction.h in Headers */,
-				83306AAD7FC7E9FD73053CD7F8E026D1 /* ZYSheetController-umbrella.h in Headers */,
-				41F918A37B4F8F2802C42E3A3FAC30BA /* ZYSheetView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +409,16 @@
 				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
 				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
 				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB0F53D0A4B1818AE98690D755580F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEB1712FA625870D4D496364B0148AD /* ZYSheetAction.h in Headers */,
+				1E9C8267A3B66499F55962D1A09CBFF3 /* ZYSheetController-umbrella.h in Headers */,
+				6B22F0A142F8A090EAB158B9C414A9F2 /* ZYSheetView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,16 +454,17 @@
 		};
 		4655CAF291273897A106E1B321264A99 /* ZYSheetController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8142F389FC0595476B6D8F42D878A54 /* Build configuration list for PBXNativeTarget "ZYSheetController" */;
+			buildConfigurationList = 2C3DD6F9CCF6CC248A0A6CE31DB345C4 /* Build configuration list for PBXNativeTarget "ZYSheetController" */;
 			buildPhases = (
-				2B67CC3BB3FC4574C8FE54205D59B94F /* Headers */,
-				F1DBF7FFA7ABE01C0E1B8E3E545A7AEC /* Sources */,
-				CD50284AC3840AB7656B0EF505127765 /* Frameworks */,
-				AA65C7E1F84505928491517BBE37C459 /* Resources */,
+				ADB0F53D0A4B1818AE98690D755580F8 /* Headers */,
+				759BFDC9A3F34A819BBD55E95A2087E8 /* Sources */,
+				DBDC02E05C778F2C087A7840E87B0491 /* Frameworks */,
+				4654CEE48343F612B76837B13902091A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8026BD912139049C473BE66E97911272 /* PBXTargetDependency */,
 			);
 			name = ZYSheetController;
 			productName = ZYSheetController;
@@ -528,6 +540,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4654CEE48343F612B76837B13902091A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63808BC3B342CD50DAB62F5E68B0591A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,13 +555,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA65C7E1F84505928491517BBE37C459 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,13 +605,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1DBF7FFA7ABE01C0E1B8E3E545A7AEC /* Sources */ = {
+		759BFDC9A3F34A819BBD55E95A2087E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D407274C9D2EA37C421A783BAF34536 /* ZYSheetAction.m in Sources */,
-				FF07A9CF21C21F1FA11015F68DDDA742 /* ZYSheetController-dummy.m in Sources */,
-				01A2270E134DF93C70E77509BB7A12D5 /* ZYSheetView.m in Sources */,
+				B1C91A0E52BE0E424C91179F48EAAACC /* ZYSheetAction.m in Sources */,
+				5603BD92B73D94E68BEFDB30EEEB581D /* ZYSheetController-dummy.m in Sources */,
+				65075DF27B45BD6A8F5A0DCBFCFC2562 /* ZYSheetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +623,12 @@
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 38EFBA9FAEB4041668C1FFF98DF5AF6A /* PBXContainerItemProxy */;
+		};
+		8026BD912139049C473BE66E97911272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 56308DEBCA00AF966607D2037DE26AF8 /* PBXContainerItemProxy */;
 		};
 		9453F76273CFB981EA29D21DE8265FAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -691,10 +709,11 @@
 			};
 			name = Debug;
 		};
-		442B67C278390EA902ECA226DE855E38 /* Release */ = {
+		1B990A1222CADD6BCFFBA9EEC68F6BD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CCF4B7175DF3B06ECFD0DA014A84FA4 /* ZYSheetController.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,7 +726,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ZYSheetController/ZYSheetController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ZYSheetController/ZYSheetController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZYSheetController/ZYSheetController.modulemap";
 				PRODUCT_MODULE_NAME = ZYSheetController;
@@ -722,6 +741,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		25B2B62EB462ABA86F5D1F22155218C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCF4B7175DF3B06ECFD0DA014A84FA4 /* ZYSheetController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYSheetController/ZYSheetController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYSheetController/ZYSheetController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYSheetController/ZYSheetController.modulemap";
+				PRODUCT_MODULE_NAME = ZYSheetController;
+				PRODUCT_NAME = ZYSheetController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -789,37 +840,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		784ABE0C1FDE4D294AFE92ED4299520F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCF4B7175DF3B06ECFD0DA014A84FA4 /* ZYSheetController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZYSheetController/ZYSheetController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZYSheetController/ZYSheetController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZYSheetController/ZYSheetController.modulemap";
-				PRODUCT_MODULE_NAME = ZYSheetController;
-				PRODUCT_NAME = ZYSheetController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1018,6 +1038,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C3DD6F9CCF6CC248A0A6CE31DB345C4 /* Build configuration list for PBXNativeTarget "ZYSheetController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B2B62EB462ABA86F5D1F22155218C9 /* Debug */,
+				1B990A1222CADD6BCFFBA9EEC68F6BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1050,15 +1079,6 @@
 			buildConfigurations = (
 				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
 				527D6664223B803E9C7307F58E3CA12A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8142F389FC0595476B6D8F42D878A54 /* Build configuration list for PBXNativeTarget "ZYSheetController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				784ABE0C1FDE4D294AFE92ED4299520F /* Debug */,
-				442B67C278390EA902ECA226DE855E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

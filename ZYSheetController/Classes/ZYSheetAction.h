@@ -21,12 +21,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ZYSheetAction : UIControl
 
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, strong) UIColor *textColor;
 @property (nonatomic, assign) ZYSheetActionStyle actionStyle;
 @property (nonatomic, copy) completionHandler handler;
 
 +(instancetype)actionWithTitle: (NSString *)title
                    actionStyle: (ZYSheetActionStyle)actionStyle
-             completionHandler: (completionHandler)handler;
+             completionHandler: (completionHandler __nullable)handler;
++(instancetype)actionWithTitle:(NSString *)title
+                     textColor: (UIColor * __nullable)textColor
+                   actionStyle:(ZYSheetActionStyle)actionStyle
+             completionHandler:(completionHandler __nullable)handler;
 
 @end
 

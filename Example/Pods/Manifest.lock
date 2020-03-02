@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - ZYSheetController (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - ZYSheetController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  ZYSheetController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZYSheetController: 0cff0bb39a3b2d7cde8cbd0efeeee17dbfab65ee
+
+PODFILE CHECKSUM: 372a47d60413a5c7d9a938080bd94d52a395ab20
+
+COCOAPODS: 1.8.4

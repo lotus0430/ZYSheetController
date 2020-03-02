@@ -1,0 +1,22 @@
+{
+  "name": "ZYSheetController",
+  "version": "0.1.0",
+  "summary": "A short description of ZYSheetController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lotus0430/ZYSheetController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lotus0430": "lotus0430@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lotus0430/ZYSheetController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYSheetController/Classes/**/*"
+}

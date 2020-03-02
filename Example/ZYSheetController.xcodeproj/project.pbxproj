@@ -39,9 +39,9 @@
 /* Begin PBXFileReference section */
 		08DB95EB483B76FA3A07EF68 /* Pods_ZYSheetController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSheetController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAFC2AD973B50AC88570258 /* Pods-ZYSheetController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSheetController_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYSheetController_Tests/Pods-ZYSheetController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2444EDC10128790992DF7F81 /* ZYSheetController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYSheetController.podspec; path = ../ZYSheetController.podspec; sourceTree = "<group>"; };
+		2444EDC10128790992DF7F81 /* ZYSheetController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYSheetController.podspec; path = ../ZYSheetController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40A2993859D5CB6B4D6B0D71 /* Pods-ZYSheetController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSheetController_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYSheetController_Example/Pods-ZYSheetController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42BAD44F954358BDD8D388A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42BAD44F954358BDD8D388A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYSheetController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSheetController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		884AB084F341F5AA0EFC25DF /* Pods_ZYSheetController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSheetController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C5358C26F1DAB8EF1C36E9 /* Pods-ZYSheetController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSheetController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZYSheetController_Tests/Pods-ZYSheetController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD87C35DC9907A9BC55AB5F6 /* Pods-ZYSheetController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSheetController_Example.release.xcconfig"; path = "Target Support Files/Pods-ZYSheetController_Example/Pods-ZYSheetController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEC42471908F1E248578C6AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEC42471908F1E248578C6AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				99C5358C26F1DAB8EF1C36E9 /* Pods-ZYSheetController_Tests.debug.xcconfig */,
 				0EAFC2AD973B50AC88570258 /* Pods-ZYSheetController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZYSheetController_Example/Pods-ZYSheetController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYSheetController/ZYSheetController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYSheetController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

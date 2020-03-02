@@ -1,0 +1,6 @@
+framework module Pods_ZYSheetController_Tests {
+  umbrella header "Pods-ZYSheetController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

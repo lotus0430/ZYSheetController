@@ -1,9 +1,11 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'ZYSheetController_Example' do
   pod 'ZYSheetController', :path => '../'
+
+  pod 'Masonry'
 
   target 'ZYSheetController_Tests' do
     inherit! :search_paths

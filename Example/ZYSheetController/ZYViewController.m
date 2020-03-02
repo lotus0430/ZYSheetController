@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-
+#import <ZYSheetView.h>
 @interface ZYViewController ()
 
 @end
